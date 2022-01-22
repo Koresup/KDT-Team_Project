@@ -28,7 +28,6 @@ public class MainPageGUI extends MyJFrame {
 
     @Override
     protected void actionEvent() {
-
     }
 
     public static void main(String[] args) {
