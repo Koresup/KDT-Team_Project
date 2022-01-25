@@ -1,5 +1,9 @@
 package com.aroundThirty.Resource;
 
+import com.aroundThirty.model.PostDto;
+import com.aroundThirty.model.UserDto;
+import com.aroundThirty.model.XmlDto;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -13,5 +17,7 @@ public class Resource {
     public static Color color = new Color(246, 230, 121, 255);
     public static Color color01 = new Color(255, 250, 200, 255);
     public static Font font = new Font("Gaegu", Font.BOLD, 20);
-
+    public static UserDto userDto;
+    public static XmlDto xmlDto;
+    public static PostDto postDto;
 }
