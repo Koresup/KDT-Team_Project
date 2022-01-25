@@ -24,6 +24,7 @@ public class MainPageGUI extends MyJFrame {
         container.add(BorderLayout.WEST, new LeftPanel());
         container.add(BorderLayout.EAST, new RightPanel());
         container.setBackground(color);
+        System.out.println("깃테스트");
     }
 
     @Override
